@@ -13,7 +13,7 @@ You can showcase this project for ~3 minutes, including full launch of Gazebo + 
 Folder Structure
 
 
-             ![alt text](image.png)
+             ![alt text](image.png) 
 
 
 
