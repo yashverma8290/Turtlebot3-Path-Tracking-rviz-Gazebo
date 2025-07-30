@@ -5,7 +5,8 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='path_tracker',
-            executable='main',
+            executable='controller_node',
+            name='trajectory_follower',
             output='screen'
         )
     ])
