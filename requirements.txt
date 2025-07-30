@@ -1,3 +1,7 @@
 numpy
 scipy
 matplotlib
+gazebo
+rviz
+nav2
+ros2 humble
