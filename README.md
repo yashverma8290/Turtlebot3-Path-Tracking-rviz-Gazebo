@@ -11,11 +11,21 @@ This project simulates a TurtleBot3 robot that tracks a smooth path in a 2D envi
 You can showcase this project for ~3 minutes, including full launch of Gazebo + RViz + robot moving along the generated trajectory.
 
 Folder Structure
-
-
-                   
-                            <img width="965" height="508" alt="Screenshot from 2025-07-30 17-36-43" src="https://github.com/user-attachments/assets/318edef4-28bb-45a3-9ca9-ae23cbf5e10f" />
-
+ros2_ws/
+└── src/
+    └── path_tracker/
+        ├── launch/
+        │   ├── gazebo_control.launch.py      # Launches simulation with controller
+        │   └── simulation.launch.py          # Full launch: smoothing + trajectory + control
+        ├── path_tracker/
+        │   ├── controller.py                  # Controller node logic
+        │   ├── main.py                        # Main script for testing simulation
+        │   ├── path_smoothing.py             # Makes the path smooth
+        │   ├── ros_controller.py              # ROS controller integration
+        │   ├── simulator.py                   # Simulator for trajectory following
+        │   └── trajectory_generator.py       # Converts smooth path to time-based trajectory
+        ├── setup.py                          # Python package setup
+        └── package.xml                       # ROS 2 package manifest
 
 
 
