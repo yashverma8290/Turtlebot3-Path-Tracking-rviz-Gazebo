@@ -11,6 +11,7 @@ This project simulates a TurtleBot3 robot that tracks a smooth path in a 2D envi
 You can showcase this project for ~3 minutes, including full launch of Gazebo + RViz + robot moving along the generated trajectory.
 
 Folder Structure
+```
 ros2_ws/
 └── src/
     └── path_tracker/
@@ -26,6 +27,7 @@ ros2_ws/
         │   └── trajectory_generator.py       # Converts smooth path to time-based trajectory
         ├── setup.py                          # Python package setup
         └── package.xml                       # ROS 2 package manifest
+
 
 
 
