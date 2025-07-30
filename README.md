@@ -13,7 +13,8 @@ You can showcase this project for ~3 minutes, including full launch of Gazebo + 
 Folder Structure
 
 
-             ![alt text](image.png) 
+                   
+                            <img width="965" height="508" alt="Screenshot from 2025-07-30 17-36-43" src="https://github.com/user-attachments/assets/318edef4-28bb-45a3-9ca9-ae23cbf5e10f" />
 
 
 
