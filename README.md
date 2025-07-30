@@ -27,7 +27,7 @@ ros2_ws/
         │   └── trajectory_generator.py       # Converts smooth path to time-based trajectory
         ├── setup.py                          # Python package setup
         └── package.xml                       # ROS 2 package manifest
-
+```
 
 
 
