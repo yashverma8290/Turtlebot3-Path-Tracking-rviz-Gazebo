@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>path_tracker</name>
+  <version>0.0.0</version>
+  <description>Path smoothing and trajectory tracking for TurtleBot3</description>
+
+  <maintainer email="yashverma@todo.todo">yashverma</maintainer>
+  <license>MIT</license>
+
+  <!-- ✅ THIS TELLS ROS2 IT'S A PYTHON PACKAGE -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>scipy</exec_depend>
+  <exec_depend>matplotlib</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

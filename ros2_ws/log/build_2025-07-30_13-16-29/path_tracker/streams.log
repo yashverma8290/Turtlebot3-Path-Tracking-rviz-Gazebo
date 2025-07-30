@@ -1,0 +1,26 @@
+[0.869s] Invoking command in '/home/yashverma/turtlebot3_path_tracking/ros2_ws/src/path_tracker': PYTHONPATH=/home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_tracker build --build-base /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build install --record /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/install.log --single-version-externally-managed install_data
+[1.189s] running egg_info
+[1.192s] writing ../../build/path_tracker/path_tracker.egg-info/PKG-INFO
+[1.192s] writing dependency_links to ../../build/path_tracker/path_tracker.egg-info/dependency_links.txt
+[1.192s] writing entry points to ../../build/path_tracker/path_tracker.egg-info/entry_points.txt
+[1.192s] writing requirements to ../../build/path_tracker/path_tracker.egg-info/requires.txt
+[1.192s] writing top-level names to ../../build/path_tracker/path_tracker.egg-info/top_level.txt
+[1.194s] reading manifest file '../../build/path_tracker/path_tracker.egg-info/SOURCES.txt'
+[1.195s] writing manifest file '../../build/path_tracker/path_tracker.egg-info/SOURCES.txt'
+[1.195s] running build
+[1.195s] running build_py
+[1.195s] copying path_tracker/ros_controller.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[1.195s] running install
+[1.196s] running install_lib
+[1.197s] copying /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker/ros_controller.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[1.199s] byte-compiling /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker/ros_controller.py to ros_controller.cpython-310.pyc
+[1.200s] running install_data
+[1.200s] copying launch/gazebo_control.launch.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/path_tracker/launch
+[1.200s] running install_egg_info
+[1.202s] removing '/home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+[1.203s] Copying ../../build/path_tracker/path_tracker.egg-info to /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker-0.0.0-py3.10.egg-info
+[1.204s] running install_scripts
+[1.231s] Installing controller_node script to /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/path_tracker
+[1.231s] Installing main script to /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/path_tracker
+[1.233s] writing list of installed files to '/home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/install.log'
+[1.266s] Invoked command in '/home/yashverma/turtlebot3_path_tracking/ros2_ws/src/path_tracker' returned '0': PYTHONPATH=/home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_tracker build --build-base /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build install --record /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/install.log --single-version-externally-managed install_data

@@ -1,0 +1,51 @@
+[0.511s] Invoking command in '/home/yashverma/turtlebot3_path_tracking/ros2_ws/src/path_tracker': PYTHONPATH=/home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_tracker build --build-base /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build install --record /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/install.log --single-version-externally-managed install_data
+[0.709s] running egg_info
+[0.710s] creating ../../build/path_tracker/path_tracker.egg-info
+[0.710s] writing ../../build/path_tracker/path_tracker.egg-info/PKG-INFO
+[0.710s] writing dependency_links to ../../build/path_tracker/path_tracker.egg-info/dependency_links.txt
+[0.711s] writing entry points to ../../build/path_tracker/path_tracker.egg-info/entry_points.txt
+[0.711s] writing requirements to ../../build/path_tracker/path_tracker.egg-info/requires.txt
+[0.711s] writing top-level names to ../../build/path_tracker/path_tracker.egg-info/top_level.txt
+[0.711s] writing manifest file '../../build/path_tracker/path_tracker.egg-info/SOURCES.txt'
+[0.712s] reading manifest file '../../build/path_tracker/path_tracker.egg-info/SOURCES.txt'
+[0.712s] writing manifest file '../../build/path_tracker/path_tracker.egg-info/SOURCES.txt'
+[0.712s] running build
+[0.713s] running build_py
+[0.713s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build
+[0.713s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib
+[0.713s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[0.715s] copying path_tracker/controller.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[0.715s] copying path_tracker/path_smoothing.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[0.715s] copying path_tracker/main.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[0.715s] copying path_tracker/simulator.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[0.715s] copying path_tracker/__init__.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[0.715s] copying path_tracker/trajectory_generator.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker
+[0.715s] running install
+[0.715s] running install_lib
+[0.715s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[0.715s] copying /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker/controller.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[0.715s] copying /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker/path_smoothing.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[0.715s] copying /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker/main.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[0.715s] copying /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker/simulator.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[0.715s] copying /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker/__init__.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[0.715s] copying /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build/lib/path_tracker/trajectory_generator.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker
+[0.715s] byte-compiling /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker/controller.py to controller.cpython-310.pyc
+[0.715s] byte-compiling /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker/path_smoothing.py to path_smoothing.cpython-310.pyc
+[0.716s] byte-compiling /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker/main.py to main.cpython-310.pyc
+[0.716s] byte-compiling /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker/simulator.py to simulator.cpython-310.pyc
+[0.716s] byte-compiling /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker/__init__.py to __init__.cpython-310.pyc
+[0.716s] byte-compiling /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker/trajectory_generator.py to trajectory_generator.cpython-310.pyc
+[0.717s] running install_data
+[0.717s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/ament_index
+[0.717s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/ament_index/resource_index
+[0.717s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/ament_index/resource_index/packages
+[0.717s] copying resource/path_tracker -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/ament_index/resource_index/packages
+[0.717s] copying package.xml -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/path_tracker
+[0.717s] creating /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/path_tracker/launch
+[0.717s] copying launch/simulation.launch.py -> /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/share/path_tracker/launch
+[0.717s] running install_egg_info
+[0.719s] Copying ../../build/path_tracker/path_tracker.egg-info to /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages/path_tracker-0.0.0-py3.10.egg-info
+[0.719s] running install_scripts
+[0.739s] Installing main script to /home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/path_tracker
+[0.739s] writing list of installed files to '/home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/install.log'
+[0.758s] Invoked command in '/home/yashverma/turtlebot3_path_tracking/ros2_ws/src/path_tracker' returned '0': PYTHONPATH=/home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yashverma/turtlebot3_path_tracking/ros2_ws/install/path_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_tracker build --build-base /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/build install --record /home/yashverma/turtlebot3_path_tracking/ros2_ws/build/path_tracker/install.log --single-version-externally-managed install_data

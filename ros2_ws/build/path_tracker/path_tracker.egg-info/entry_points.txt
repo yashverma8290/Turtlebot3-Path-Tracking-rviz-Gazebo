@@ -1,0 +1,4 @@
+[console_scripts]
+controller_node = path_tracker.ros_controller:main
+main = path_tracker.main:main
+
